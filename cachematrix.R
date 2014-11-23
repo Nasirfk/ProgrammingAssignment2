@@ -5,6 +5,11 @@
 ## set the value of the inverse
 ## get the value of the inverse
 
+## The second function cacheSolve uses methods defined in the first function makeCacheMatrix()
+## to determine if inverse has already been cached and returns the pre-cached inverse if available
+## otherwise it calculates the inverse, stores it in cache and returns the newly calculated inverse
+
+
 makeCacheMatrix <- function(x = matrix()) {
 
 	## argument x is the matrix
